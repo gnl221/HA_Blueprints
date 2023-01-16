@@ -16,6 +16,7 @@ blueprint:
         target:
           entity:
             domain: light
+            brightness_pct:
     time_trigger_after:
       name: After
       selector:
@@ -69,6 +70,7 @@ action:
   - alias: "Turn on the light"
     service: light.turn_on
     target: !input light_target
+    brightness_pct: !input light_brightness_pct
   - alias: "Wait until there is no motion from device"
     wait_for_trigger:
       platform: state
