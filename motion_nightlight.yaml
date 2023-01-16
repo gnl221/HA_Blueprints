@@ -2,7 +2,7 @@ blueprint:
   name: Motion-activated Light with time condition
   description: Turn on a light when motion is detected.
   domain: automation
-  source_url: https://gist.github.com/martijnrondeel/d3b0113036360531d9f52c44a9c55b2c
+  source_url: https://github.com/gnl221/HA_Blueprints/blob/main/motion_nightlight.yaml
   input:
     motion_entity:
       name: Motion Sensor
