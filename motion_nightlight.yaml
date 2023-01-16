@@ -16,7 +16,6 @@ blueprint:
         target:
           entity:
             domain: light
-            brightness_pct:
     time_trigger_after:
       name: After
       selector:
